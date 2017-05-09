@@ -10,3 +10,12 @@ git add :  把需要版本控制的文件 放进暂存区;
 
 git status ： 查看文件提交状态;
 
+gitcommit -m "注释内容" //代表当前文件放进版本管理仓库里
+
+命令1 ：git config --global user.name "shiyuwei"
+
+命令2：git config --global user.email "你的git验证邮箱"
+
+git remote add origin https://github.com/shiyuwei/H5.git //链接线上仓库
+
+git push -u origin master //向线上仓库推送内容
